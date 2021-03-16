@@ -10,6 +10,7 @@
 import { onMounted, ref } from "vue";
 export default {
   setup() {
+    //按名接收
     const root = ref(null);
     onMounted(() => {
       console.log(root.value);
